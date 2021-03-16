@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-[class*="col-"]{
-    /* background-color: violet; */
-}
-
 header{
     padding: 50px;
     background-color: #14b390;
@@ -111,3 +107,55 @@ header h1, header p, .main-mid h1,.footer-top h3,.footer-top p,.footer-bot p{
     padding: 20px;
     background-color: #272d40;
 }
+
+@media all and (max-width: 767px){
+    .row{
+        width: auto;
+    }
+
+    .row-list{
+        display: none;
+    }
+
+    nav h1{
+        font-size: 12px;
+    }
+
+    .square{
+        margin-top: 30px;
+    }
+
+    .main-bot textarea{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px){
+    .row{
+        width: auto;
+    }
+    
+    .row-list{
+        font-size: 12px;
+        text-align: right;
+        color: white;
+        margin-top: 25px;  
+    }
+    
+    header img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+}    
+
+    
