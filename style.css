@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+}
+
+header{
+    height: 400px;
+    background-color: #14b390;
+}
+
+nav{
+    padding: 10px;
+    background-color: #272d40;
+}
+
+nav h1{
+    font-size: 30px;
+    color: white;
+}
+
+.row-list{
+    font-size: 12px;
+    text-align: right;
+    color: white;
+    margin-top: 25px;
+    
+}
