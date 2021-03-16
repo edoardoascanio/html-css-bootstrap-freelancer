@@ -5,10 +5,11 @@
 }
 
 [class*="col-"]{
+    /* background-color: violet; */
 }
 
 header{
-    height: 400px;
+    padding: 50px;
     background-color: #14b390;
 }
 
@@ -18,7 +19,7 @@ nav{
 }
 
 nav h1{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 
@@ -26,6 +27,15 @@ nav h1{
     font-size: 12px;
     text-align: right;
     color: white;
-    margin-top: 25px;
-    
+    margin-top: 25px;  
+}
+
+header img{
+    width: 50%;
+    margin-left: 25%;
+}
+
+header h1, header p{
+    color: white;
+    text-align: center;
 }
