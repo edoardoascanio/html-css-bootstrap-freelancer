@@ -1,5 +1,4 @@
-*{
-    margin: 0;
+*{  margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -38,4 +37,18 @@ header img{
 header h1, header p{
     color: white;
     text-align: center;
+}
+
+.main-top h1{
+    text-align: center;
+}
+
+.square{
+    height: 250px;
+    border-radius: 10px;
+    background-color: teal;
+}
+
+.main-top .row{
+    margin-top: 30px;
 }
