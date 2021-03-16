@@ -34,7 +34,7 @@ header img{
     margin-left: 25%;
 }
 
-header h1, header p, .main-mid h1{
+header h1, header p, .main-mid h1,.footer-top h3,.footer-top p,.footer-bot p{
     color: white;
     text-align: center;
 }
@@ -93,4 +93,21 @@ header h1, header p, .main-mid h1{
     border: none;
     border-radius: 5px;
     background-color: #14b390;
+}
+
+.footer-top{
+    padding: 20px;
+    background-color: #43536b;
+}
+
+.icon{
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    background-color: white;
+}
+
+.footer-bot{
+    padding: 20px;
+    background-color: #272d40;
 }
