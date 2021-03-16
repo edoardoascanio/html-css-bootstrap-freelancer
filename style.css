@@ -34,7 +34,7 @@ header img{
     margin-left: 25%;
 }
 
-header h1, header p{
+header h1, header p, .main-mid h1{
     color: white;
     text-align: center;
 }
@@ -51,4 +51,29 @@ header h1, header p{
 
 .main-top .row{
     margin-top: 30px;
+}
+
+.main-mid{
+    margin-top: 80px;
+    padding: 50px;
+    background-color: #14b390;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-mid p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.main-mid button{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 30%;
 }
