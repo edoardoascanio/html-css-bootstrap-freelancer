@@ -118,9 +118,17 @@ header h1, header p, .main-mid h1,.footer-top h3,.footer-top p,.footer-bot p{
 }
 
 .icon{
-    width: 80%;
+    display: inline-block;
+    width: 40px;
     height: 40px;
-    margin: auto;
+    margin:0 10px;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.icon img{
+    width: 100%;   
 }
 
 .footer-bot{
