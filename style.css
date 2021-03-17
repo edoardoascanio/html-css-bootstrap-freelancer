@@ -5,6 +5,7 @@
 
 header{
     padding: 50px;
+    margin-bottom: 100px;
     background-color: #14b390;
 }
 
@@ -21,6 +22,29 @@ header img{
 
 header h1, header p, .main-mid h1,.footer-top h3,.footer-top p,.footer-bot p{
     color: white;
+}
+
+.star{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.line{
+    width: 15%;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.line-blue{
+    width: 15%;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid  #272d40;
+    background-color:  #272d40;
 }
 
 .main-top h1,.main-bot h1{
@@ -41,7 +65,8 @@ header h1, header p, .main-mid h1,.footer-top h3,.footer-top p,.footer-bot p{
 
 .main-mid{
     margin-top: 80px;
-    padding: 50px;
+    margin-bottom: 50px;
+    padding: 80px;
     background-color: #14b390;
 }
 
@@ -124,6 +149,11 @@ header h1, header p, .main-mid h1,.footer-top h3,.footer-top p,.footer-bot p{
     h3{
         font-size: 15px;
         margin-top: 30px;
+    }
+
+    .star{
+    
+        margin: 5px;
     }
 }
 
