@@ -3,9 +3,7 @@
     box-sizing: border-box;
 }
 
-header{
-    padding: 50px;
-    margin-bottom: 100px;
+header,.main-mid{
     background-color: #14b390;
 }
 
@@ -15,17 +13,21 @@ header{
     background-color: #272d40;
 }
 
-header img{
+#guy{
     width: 50%;
     margin-left: 25%;
 }
 
-header h1, header p, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
+h1{
+    font-size: 40px;
+}
+
+header h1, header h4, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
     color: white;
 }
 
 .star{
-    width: 50px;
+    max-width: 50px;
     height: 50px;
     display: inline-block;
     margin: 10px;
@@ -34,7 +36,7 @@ header h1, header p, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
 .line{
     width: 15%;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid white;
     background-color: white;
 }
@@ -42,7 +44,7 @@ header h1, header p, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
 .line-blue{
     width: 15%;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid  #272d40;
     background-color:  #272d40;
 }
@@ -63,11 +65,8 @@ header h1, header p, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
     margin:15px;
 }
 
-.main-mid{
-    margin-top: 80px;
-    margin-bottom: 50px;
-    padding: 80px;
-    background-color: #14b390;
+main>section,header{
+    padding: 50px;
 }
 
 .main-mid p{
@@ -78,7 +77,7 @@ header h1, header p, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
     color: white;
 }
 
-.main-mid button{
+.download-btn{
     color: white;
     border: 1px solid white;
     background-color: transparent;
@@ -86,30 +85,29 @@ header h1, header p, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
     border-radius: 5px;
 }
 
-.main-bot{
-    padding: 50px;
-  
-}
-
 .form-control{
     border: 1px solid #272d40;
-    border-radius: none;
     border-top: none;
     border-left: none;
     border-right: none;
+    box-shadow: none;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
-.main-bot button{
+.submit-btn{
     color: white;
     border: none;
     border-radius: 5px;
     background-color: #14b390;
 }
 
-.footer-top{
+footer>section{
     padding: 20px;
+}
+
+.footer-top{   
     background-color: #43536b;
 }
 
@@ -131,8 +129,7 @@ header h1, header p, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
     width: 100%;   
 }
 
-.footer-bot{
-    padding: 20px;
+.footer-bot{   
     background-color: #272d40;
 }
 
@@ -146,21 +143,20 @@ header h1, header p, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
         border: 1px solid white;
     }
 
-    .box{
-        margin: 5px;
-    }
-
     h1{
         font-size: 25px;
     }
 
-    h3{
+    h4{
+        font-size: 15px;
+    }
+
+    footer h4{
         font-size: 15px;
         margin-top: 30px;
     }
 
     .star{
-    
         margin: 5px;
     }
 }
@@ -170,17 +166,15 @@ header h1, header p, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
         width: auto;
     }
     
-    .row-list{
-        font-size: 12px;
-        text-align: right;
-        color: white;
-        margin-top: 25px;  
-    }
-    
-    header img{
+    #guy{
         width: 50%;
         margin-left: 25%;
-    }   
+    } 
+    
+    h1{
+        font-size: 35px;
+    }
+
 }    
 
     
