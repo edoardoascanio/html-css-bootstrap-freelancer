@@ -20,7 +20,7 @@ header img{
     margin-left: 25%;
 }
 
-header h1, header p, .main-mid h1,.footer-top h3,.footer-top p,.footer-bot p{
+header h1, header p, .main-mid h1,.footer-top h4,.footer-top p,.footer-bot p{
     color: white;
 }
 
@@ -121,7 +121,7 @@ header h1, header p, .main-mid h1,.footer-top h3,.footer-top p,.footer-bot p{
     display: inline-block;
     width: 40px;
     height: 40px;
-    margin:0 10px;
+    margin:0 5px;
     padding: 8px;
     border: 1px solid white;
     border-radius: 50%;
